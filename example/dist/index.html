@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Time Converter JS - Example</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css" />
+  </head>
+  <body>
+    <header class="hero is-primary">
+      <div class="hero-body">
+        <p class="title">Time Converter JS</p>
+        <p class="subtitle">An example of the Time Converter module functions and how to use it</p>
+      </div>
+    </header>
+
+    <main class="container">
+      <div class="card">
+        <div class="card-header">
+          <div class="card-header-title">hoursToSeconds</div>
+        </div>
+        <div class="card-content">
+          <p class="content">This function converts hours to seconds.</p>
+          <div class="field">
+            <label class="label" for="input-hours">Input</label>
+            <input class="input" type="text" id="input-hours" value="5" />
+          </div>
+          <div class="field">
+            <label class="label" for="output-hours">Ouput</label>
+            <input class="input" type="text" id="output-hours" readonly />
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <script src="wasm_exec.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>

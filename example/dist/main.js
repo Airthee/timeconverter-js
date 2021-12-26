@@ -1,0 +1,1 @@
+(()=>{const e=new Go;WebAssembly.instantiateStreaming(fetch("timeconverter.wasm"),e.importObject).then((n=>{e.run(n.instance);const t=hoursToSeconds(5);console.log("5 hours",t)}))})();
