@@ -21,9 +21,6 @@ jobs:
     - name: Build
       run: make build
       
-  deploy:
-    runs-on: ubuntu-latest
-    steps:
     - name: Upload a Build Artifact
       uses: actions/upload-artifact@v2.3.1
       with:
